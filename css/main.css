@@ -26,3 +26,49 @@ body {
     padding-right: 50px;
 }
 
+#bubble:hover .cls-1 {
+    fill: yellow
+}
+
+#burple_text {
+    transition: width 2s, height 2s;
+}
+
+#burple_text:hover {
+    width: 30%;
+    height: 55%;
+}
+
+#burple1 {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#burple1:hover {
+    width: 25%;
+    height: 50%;
+    transform: rotate(360deg);
+}
+
+#bubble1:hover {
+    animation-name: change;
+    animation-duration: 15s; 
+    background-color: purple;
+}
+
+@keyframes change {
+    0% {background-color: purple;}
+    25% {background-color: yellow;}
+    50% {background-color: green;}
+    100% {background-color: aqua;}
+}
+
+#burple:hover {
+    filter: blur(5px);
+}
+
+#type:hover {
+    transform: scaleX(-1);
+}
+
+
+
