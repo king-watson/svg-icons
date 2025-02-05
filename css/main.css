@@ -1,0 +1,28 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-size: 20px;
+    background-color: white;
+    color: purple;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-con {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-con div {
+    width: 100%;
+}
+
+.icon-con svg {
+    width: 25%;
+    height: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
